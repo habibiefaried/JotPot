@@ -2,8 +2,6 @@
 
 include "includer.php";
 
-#echo shell_exec("pwd");
-
 ?>
 
 <div class="container">
@@ -28,6 +26,5 @@ include "includer.php";
 
 
 <?php
-
-    #phpinfo();
+    phpinfo();
 ?>

@@ -18,6 +18,8 @@
 --
 -- Table structure for table `aburcubur`
 --
+CREATE DATABASE jotpot;
+USE jotpot;
 
 DROP TABLE IF EXISTS `aburcubur`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

@@ -6,10 +6,10 @@ $passpassword="form";
 
 #--------------------------#
 
-$sn = "localhost"; #servername
-$un = "jotpot"; #username
-$pss = "JotForm1-"; #password
-$db = "jotformDB"; #database
+$sn = "mysql"; #servername
+$un = "root"; #username
+$pss = "p4ssW0rd"; #password
+$db = "jotpot"; #database
 
 
 ?>

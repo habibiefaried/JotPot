@@ -10,4 +10,4 @@ RUN docker-php-ext-configure gd \
         --with-jpeg-dir=/usr/include 
 RUN docker-php-ext-install mysqli pdo pdo_mysql gd
 COPY php.ini /usr/local/etc/php/php.ini
-COPY . /var/www/html/
+COPY --chown=www-data:www-data . /var/www/html/

@@ -2,7 +2,8 @@ FROM php:7.1-apache
 RUN apt-get update -y && apt-get install -y libpng-dev \
         libfreetype6-dev \
         libmcrypt-dev \
-        libjpeg-dev 
+        libjpeg-dev \
+        dnsutils
 RUN docker-php-ext-configure gd \
         --enable-gd-native-ttf \
         --with-freetype-dir=/usr/include/freetype2 \
